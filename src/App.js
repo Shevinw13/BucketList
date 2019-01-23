@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -148,11 +148,7 @@ class App extends Component {
             <header className="App-header">
               <img src={logo} className="App-logo" alt="logo" />
               <h1 className="App-title">
-                React{' '}
-                <span role="img" aria-label="purple heart">
-                  💜
-                </span>{' '}
-                Firebase
+                BucketLister's App{' '}
               </h1>
             </header>
             <Navigation />
